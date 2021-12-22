@@ -1,5 +1,3 @@
-const HDWalletProvider= require('@truffle/hdwallet-provider');
-
 /**
  * Use this file to configure your truffle project. It's seeded with some
  * common settings for different networks and features like migrations,
@@ -37,30 +35,6 @@ module.exports = {
    */
 
   networks: {
-
-    //Kovan Netowrk
-    kovan:{
-      provider: function(){
-        return new HDWalletProvider(
-          `walnut chunk spice phrase spread second spell juice unable you scheme drift`,
-          `wss://kovan.infura.io/ws/v3/6780316e173b457c8ade056310790a31`
-        )
-      },
-      network_id: 42
-    },
-    bsc_testnet:{
-      provider: function(){
-        return new HDWalletProvider(
-          `walnut chunk spice phrase spread second spell juice unable you scheme drift`,
-          `https://data-seed-prebsc-1-s1.binance.org:8545`
-        )
-      },
-      network_id: 97,
-      confirmations: 2,
-      timeoutBlocks: 200,
-      skipDryRun: true
-    }
-
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
     // You should run a client (like ganache-cli, geth or parity) in a separate terminal
