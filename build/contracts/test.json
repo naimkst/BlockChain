@@ -1,0 +1,117 @@
+{
+  "contractName": "test",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/test.sol\":\"test\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/test.sol\":{\"keccak256\":\"0x5575c923f2a1add7690d3aba186b231002344ee2261dbece99ad9684acac116b\",\"urls\":[\"bzz-raw://f38cc92dd8579e0d3ad44ae6ddca01f5855750950e844f5301d95e5b52c46e52\",\"dweb:/ipfs/Qmcr8PG2v1kSjD5CEnRN2PwXoK2mWRPc5v823ruHcLrVTE\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220b910c892a08b4fd477f43de52ec22e72e5c07ae46d6d338b61a0e0f64d6819f264736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220b910c892a08b4fd477f43de52ec22e72e5c07ae46d6d338b61a0e0f64d6819f264736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "27:19:12:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "27:19:12:-:0;;;;;",
+  "source": "pragma solidity ^0.8.0;\r\n\r\ncontract test{\r\n\r\n}",
+  "sourcePath": "C:\\laragon\\www\\Blockchain\\crc20\\contracts\\test.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/test.sol",
+    "exportedSymbols": {
+      "test": [
+        1630
+      ]
+    },
+    "id": 1631,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1629,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:12"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "test",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1630,
+        "linearizedBaseContracts": [
+          1630
+        ],
+        "name": "test",
+        "nameLocation": "36:4:12",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1631,
+        "src": "27:19:12",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:46:12"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/test.sol",
+    "exportedSymbols": {
+      "test": [
+        1630
+      ]
+    },
+    "id": 1631,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1629,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:12"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "test",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1630,
+        "linearizedBaseContracts": [
+          1630
+        ],
+        "name": "test",
+        "nameLocation": "36:4:12",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1631,
+        "src": "27:19:12",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:46:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2021-12-21T11:58:11.725Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
